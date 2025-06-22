@@ -154,6 +154,11 @@ Download NLTK Data:
 
 The script will automatically attempt to download necessary NLTK data (stopwords, wordnet, omw-1.4, punkt, punkt_tab, averaged_perceptron_tagger) the first time it runs. Ensure you have an active internet connection when you run the script for the very first time for these downloads to succeed. You will see download messages in your console.
 
+PUT YOUR GOOGLE API KEY HERE:
+
+api_key = "AIzaSyAGZQsMu3Cazmu-aj2Y2jzGKZZ8ElPripc"
+api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
+
 Run the Chatbot Script:
 
 Once all installations and downloads are complete, run your chatbot script while the chatbot_env is active:
