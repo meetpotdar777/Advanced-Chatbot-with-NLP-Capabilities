@@ -10,13 +10,19 @@
         "lemmatize",
         "lemmatizer",
         "nltk",
+        "numpy",
         "Pripc",
         "proba",
         "punkt",
+        "Rasa",
+        "scikit",
+        "spacy",
         "Stopword",
         "stopwords",
+        "Streamlit",
         "tfidf",
         "Vectorizer",
+        "venv",
         "wordnet"
     ]
 }
