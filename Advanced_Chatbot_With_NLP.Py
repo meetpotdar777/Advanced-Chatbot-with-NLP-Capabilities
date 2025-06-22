@@ -420,7 +420,7 @@ class Chatbot:
         """
         # Placeholder for the API key. Canvas will inject it at runtime.
         # DO NOT put your actual API key here.
-        api_key = "AIzaSyAGZQsMu3Cazmu-aj2Y2jzGKZZ8ElPripc"
+        api_key = "AIzaSyAGZQsMu3Cazmu-uj2Y2rzGKeZ8ElPripc"
         api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
 
         chat_history = [{"role": "user", "parts": [{"text": prompt}]}]
